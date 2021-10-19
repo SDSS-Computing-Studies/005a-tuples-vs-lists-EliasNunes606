@@ -20,8 +20,8 @@ Enter the replacement:Dan
 
 """
 homies = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
-replacement = str(input("Choose a person from the list to replace"))
-replacement2 = str(input("Enter the name you want to replace it with"))
+replacement = str(input("Choose a person from the list to replace")).strip()
+replacement2 = str(input("Enter the name you want to replace it with")).strip()
 x = homies.index(replacement)
 homies.pop(x)
 homies.insert(x,replacement2)
