@@ -35,6 +35,4 @@ word6.append(word2)
 word6.append(word3)
 word6.append(word4)
 word6.append(word5)
-word6.append(word6)
 print(word6)
-pass
