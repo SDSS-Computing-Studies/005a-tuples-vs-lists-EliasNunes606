@@ -29,6 +29,8 @@ remove1 = str(input("Enter what you want to remove")).strip()
 if remove1 in fruit:
     for i in fruit:
         fruit.remove(remove1)      
+        if remove1 not in fruit:
+            break
 else:
     print("word not in list")
     fruit.append(remove1)
