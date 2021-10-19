@@ -19,3 +19,6 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+homies = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
+print(homies)
+replacement = str(input("Choose a person from the list to replace"))
